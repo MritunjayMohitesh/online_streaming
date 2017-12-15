@@ -1,0 +1,298 @@
+001
+.example {
+002
+margin: 50px auto 0;
+003
+width: 400px;
+004
+}
+005
+.player {
+006
+background: transparent url("../images/spr.png") no-repeat scroll center top;
+007
+height: 162px;
+008
+position: relative;
+009
+width: 326px;
+010
+z-index: 2;
+011
+}
+012
+.title, .artist {
+013
+font-family: verdana;
+014
+left: 167px;
+015
+position: absolute;
+016
+-moz-user-select: none;
+017
+-webkit-user-select: none;
+018
+-ms-user-select: none;
+019
+}
+020
+.title {
+021
+color: #FFFFFF;
+022
+font-size: 14px;
+023
+font-weight: bold;
+024
+top: 23px;
+025
+}
+026
+.artist {
+027
+color: #EEEEEE;
+028
+font-size: 12px;
+029
+top: 40px;
+030
+}
+031
+.pl {
+032
+background: transparent url("../images/spr.png") no-repeat scroll -274px -175px;
+033
+cursor: pointer;
+034
+height: 34px;
+035
+left: 270px;
+036
+position: absolute;
+037
+top: 20px;
+038
+width: 32px;
+039
+}
+040
+.pl:hover {
+041
+top: 21px;
+042
+}
+043
+.cover {
+044
+background: transparent url(../data/cover1.jpg) no-repeat scroll center top;
+045
+border-radius: 5px 5px 5px 5px;
+046
+height: 94px;
+047
+left: 20px;
+048
+position: absolute;
+049
+top: 20px;
+050
+width: 94px;
+051
+}
+052
+.controls {
+053
+cursor: pointer;
+054
+height: 23px;
+055
+left: 167px;
+056
+position: absolute;
+057
+top: 65px;
+058
+width: 138px;
+059
+}
+060
+.controls .play, .controls .pause, .controls .rew, .controls .fwd {
+061
+background: transparent url("../images/spr.png") no-repeat scroll 0 0;
+062
+float: left;
+063
+height: 100%;
+064
+width: 33%;
+065
+}
+066
+.controls .play {
+067
+background-position: -8px -171px;
+068
+}
+069
+.controls .pause {
+070
+background-position: -8px -198px;
+071
+display: none;
+072
+}
+073
+.controls .rew {
+074
+background-position: -54px -171px;
+075
+}
+076
+.controls .fwd {
+077
+background-position: -100px -171px;
+078
+}
+079
+.controls .play:hover {
+080
+background-position: -8px -170px;
+081
+}
+082
+.controls .pause:hover {
+083
+background-position: -8px -197px;
+084
+}
+085
+.controls .rew:hover {
+086
+background-position: -54px -170px;
+087
+}
+088
+.controls .fwd:hover {
+089
+background-position: -100px -170px;
+090
+}
+091
+.hidden {
+092
+display: none;
+093
+}
+094
+.controls .visible {
+095
+display: block;
+096
+}
+097
+.volume {
+098
+height: 11px;
+099
+left: 186px;
+100
+position: absolute;
+101
+top: 96px;
+102
+width: 112px;
+103
+}
+104
+.tracker {
+105
+height: 15px;
+106
+left: 20px;
+107
+position: absolute;
+108
+top: 126px;
+109
+width: 285px;
+110
+}
+111
+.ui-slider-range {
+112
+background: transparent url("../images/spr.png") no-repeat scroll 5px -222px;
+113
+height: 100%;
+114
+position: absolute;
+115
+top: 0;
+116
+}
+117
+.ui-slider-handle {
+118
+cursor: pointer;
+119
+height: 10px;
+120
+margin-left: -5px;
+121
+position: absolute;
+122
+top: 2px;
+123
+width: 10px;
+124
+z-index: 2;
+125
+}
+126
+.volume .ui-slider-handle {
+127
+background: url("../images/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+128
+height: 13px;
+129
+width: 13px;
+130
+}
+131
+.playlist {
+132
+background-color: #333333;
+133
+border-radius: 5px 5px 5px 5px;
+134
+list-style-type: none;
+135
+margin: -10px 0 0 2px;
+136
+padding-bottom: 10px;
+137
+padding-top: 15px;
+138
+position: relative;
+139
+width: 326px;
+140
+z-index: 1;
+141
+}
+142
+.playlist li {
+143
+color: #EEEEEE;
+144
+cursor: pointer;
+145
+margin: 0 0 5px 15px;
+146
+}
+147
+.playlist li.active {
+148
+font-weight: bold;
+149
+}

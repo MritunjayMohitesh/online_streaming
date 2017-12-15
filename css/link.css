@@ -1,0 +1,121 @@
+body{
+
+}
+
+
+h2,h3.head
+{
+	color:lawngreen;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+}
+h1.head
+{
+	color:navajowhite; 
+	font-weight: bold;
+	text-align: center;
+	font-size:50px;
+}
+div.artist
+{
+	text-align: center;
+	font-style: Arial;
+	color:blue;
+	font-size: 30px;
+	text-decoration: none;
+}
+p.info
+{
+	font-style: arial;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+}
+a.hi:hover
+{
+	background-color: red;
+    color: white;
+    text-decoration: none;
+}
+a.hi
+{
+background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    display:inline-block;
+    border-radius: 2px;
+   width: 8%
+}
+strong.st
+{
+	color:magenta;
+	font-size: 15px;
+}
+a.link:hover
+{
+	 color: purple;
+	 text-decoration: none;
+}
+a.link:link
+{
+	color: black;
+ text-decoration: none;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

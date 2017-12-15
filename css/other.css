@@ -1,0 +1,166 @@
+
+body{
+}
+
+div.option
+{
+
+	 display:inline-block;
+    width: 200px;
+    height:300px;
+    margin-top: 180px;
+
+	padding:9px;
+    border: 3px pink;
+    font-size: 30px;
+    
+}
+a.link:hover
+{
+	 color: purple;
+	 text-decoration: none;
+}
+a.link:link
+{
+	color: black;
+ text-decoration: none;
+
+}
+.heading
+{
+    margin-bottom: 50px;
+	font-style: Verdana;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.C2
+{
+	display: inline-block;
+	margin: 20px 20px 20px 20px;
+	background-color: white;
+	font-style: Comic Sans MS;;
+	padding:20px 20px 20px 20 px;	
+	color: white;
+	 width: 250px;
+    height: 250px;
+    overflow:scroll ;
+}
+}
+input[type="text"]:focus 
+{
+    width: 100%;
+}
+
+form {
+                width:500px;
+                margin:-40px 8px ;
+
+}
+.search {
+                padding:8px 15px;
+                background-color: white;
+                color:black;
+                border-top-left-radius:7px ;
+                border-bottom-left-radius:7px ; 
+
+            }
+
+.button {
+                position:relative;
+                padding:9px 20px;
+                left:-4px;
+                border:0px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+                
+                cursor:hand;
+                cursor:pointer;
+
+}
+
+
+
+.arrow{
+    position: relative;
+
+    left:-4px;
+    background:#207cca;
+    padding:8px 4px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-right: 0px;
+
+}
+
+.arrow:after{
+    right:100%;
+    top:50%;
+    border:solid transparent;
+    content:" ";
+    height:0;
+    width:0;
+    position:absolute;
+    border-color: rgba(32,124,202,0);
+    border-right-color: #207cca;
+    border-width: 10px;
+    margin-top: -10px;
+
+}
+a.link:link
+{
+   text-decoration: none;
+}

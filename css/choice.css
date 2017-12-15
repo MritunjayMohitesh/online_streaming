@@ -1,0 +1,63 @@
+body
+{
+	background-image: url("bg.jpg");
+}
+h1
+{
+	font-weight: bold;
+	font-style: arial;
+	color:green;
+	text-align: center;
+	margin-top: 60px;
+}
+h2
+{
+	font-weight: bold;
+	font-style: arial;
+	color: red;
+}
+div.songs
+{
+	 display:inline-block;
+    width: 600px;
+    height:700px;
+    margin:20px;
+	padding:9px;
+    border: 3px pink;
+	overflow:auto;
+	background-color: pink;
+    float: center;
+
+}
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display:inline-block;
+    border-radius: 8px;
+    width: 70%
+}
+.button:hover
+ {
+    background-color: black;
+    color: white;
+}
+div.movies
+{
+	 display:inline-block;
+    width: 600px;
+    height:700px;
+    margin:20px;
+	padding:9px;
+    border: 3px pink;
+	overflow:auto;
+	background-color: green;
+
+}

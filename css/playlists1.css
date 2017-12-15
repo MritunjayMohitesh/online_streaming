@@ -1,0 +1,45 @@
+
+div.aif
+{
+	
+}
+div.my
+{
+}
+a:hover
+{
+	color: green;
+}
+a:link
+{
+	text-decoration:blink;
+	font-family:arial;
+	font-size: 30px;
+	color: #2B2B2B;
+
+}
+
+.table{
+	display:table;
+}
+.row{
+	display: table-row;
+}
+.col1{
+	display: table-cell;
+	width:50%;
+	vertical-align: top;
+}
+.col2{
+	display: table-cell;
+	width:50%;
+	vertical-align: top;
+	padding-left: 100px;
+	margin-bottom: 0px;
+}
+h2.adc
+{
+	margin: 0px;
+	color: black;
+
+}
